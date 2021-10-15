@@ -1,108 +1,73 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Think-Twice
 
-Welcome pablo1793,
+## Card Pairing Memory Game
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+#### Ideal user
 
-## Gitpod Reminders
+##### The ideal user for this game is:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+##### Visitors to this website are searching for:
 
-`python3 -m http.server`
+##### This project is the best way to help them achieve these things because:
 
-A blue button should appear to click: _Make Public_,
+##### Client stories:
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Languages Used
 
-A blue button should appear to click: _Make Public_,
+### Libraries & Programs Used
 
-Another blue button should appear to click: _Open Browser_.
+## Functionality
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Non-technical
 
-To log into the Heroku toolbelt CLI:
+### Technical
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Existing Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Features to implement in future
 
-------
+## Installation Instructions
 
-## Release History
+## Testing & Bugfixes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### HTML Testing
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### CSS Testing
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### JavaScript Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### web.dev Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Manual testing of all elements and functionality
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Screenshots
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Credits
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Content
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* The inspiration for the design of the game was taken from a two-part video lesson created by YouTube content creators [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) and [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg). The [first video](https://www.youtube.com/watch?v=28VfzEiJgy4) focuses on the HTML and CSS needed to create the game, and the [second](https://www.youtube.com/watch?v=3uuQ3g92oPQ) is centered of the JavaScript functionality.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* The fonts used to style the header and subheader texts are [ZCOOL Kwaile](https://fonts.google.com/specimen/ZCOOL+KuaiLe) and [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter?preview.text=Time%20Flips&preview.text_type=custom#standard-styles) respectively. The latter was designed by [Kimberley Geswein](https://fonts.google.com/?preview.text=Time%20Flips&preview.text_type=custom&query=Kimberly+Geswein), and the former by [ZCOOL](https://fonts.google.com/?query=ZCOOL), [Liu Bingke](https://fonts.google.com/?query=Liu+Bingke), [Yang Kang](https://fonts.google.com/?query=Yang+Kang), and [Wu Shaojie](https://fonts.google.com/?query=Wu+Shaojie).
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Media
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Images
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* The **treble-clef** image used for the design on the back of the cards was downloaded from icon-library.com. Although I wasn't able to find the content contributor, here is a [link](https://icon-library.com/icon/musical-notes-icon-5.html) to the page from where it was sourced.
+* The **accordion** image was downloaded from pngegg.com. I wasn't able to find its contributor either. Here is a [link](https://www.pngegg.com/en/png-zddaf) to the page where it was sourced.
+* The **violin** image was downloaded from pngegg.com. I wasn't able to find its contributor. Here is a [link](https://www.pngegg.com/en/png-exaxv) to the page where the file was sourced.
+* The **electric guitar** image was downloaded from clipart-library.com. Contributor not found. Here is a [link](http://clipart-library.com/clip-art/electric-guitar-silhouette-16.htm) to the page where it was sourced.
+* The **guitar** image was downloaded from clipart-library.com. Contributor not found. Here is a [link](http://clipart-library.com/clip-art/electric-guitar-silhouette-21.htm) to the page where it was sourced.
+* The **snare drum** image was downloaded from cleanpng.com. It was originally contributed by [Ishawar](https://www.cleanpng.com/users/@ishawar.html), and here is a [link](https://www.cleanpng.com/png-snare-drums-drum-stick-a-drum-dog-5575172/) to the page the file was sourced from.
+* The **trumpet** image was downloaded from cleanpng.com. It was originally contributed by [Hobno](https://www.cleanpng.com/users/@hobno.html), and here is a [link](https://www.cleanpng.com/png-drawing-vector-graphics-clip-art-portable-network-7014149/) to the page the file was sourced from.
+* The **flute** image was downloaded from pnghut.com. It was originally contributed by [Mradoii](https://pnghut.com/user/mradoii), and here is a [link](https://pnghut.com/png/SVBFi5tFvk/musical-instruments-western-concert-flute-silhouette-transparent-png#) to the page the file was sourced from.
+* The **saxophone** image was downloaded from iconscout.com. It was originally contributed by [DDara](https://iconscout.com/contributors/ddara), and here is a [link](https://iconscout.com/icon/saxophone-2157836) to the page the file was sourced from.
+* The **harp** image was downloaded from pngwing.com. Contributor not found. Here is a [link](https://www.pngwing.com/en/free-png-byhey) to the page where it was sourced.
+* The **xylophone** image ws downloaded from vexels.com. I couldn't find its contributor, but here is a [link](https://www.vexels.com/png-svg/preview/223515/xylophone-instrument-black-design) to the page the file was sourced from.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements
