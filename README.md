@@ -71,3 +71,7 @@
 * The **xylophone** image ws downloaded from vexels.com. I couldn't find its contributor, but here is a [link](https://www.vexels.com/png-svg/preview/223515/xylophone-instrument-black-design) to the page the file was sourced from.
 
 ### Acknowledgements
+
+#### Disclaimer
+
+The content of this Website is for educational and entertainment purposes only.

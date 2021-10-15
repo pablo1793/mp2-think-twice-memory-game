@@ -8,11 +8,11 @@ html {
 
 body {
     margin: 0;
-    background: radial-gradient(#ADD8E6, #301934);
+    background: radial-gradient(#006ee6, #120632);
 }
 
 .page-title {
-    color: #00008B;
+    color: #340143;
     font-family: 'ZCOOL KuaiLe', sans-serif;
     font-weight: normal;
     text-align: center;
@@ -27,7 +27,7 @@ body {
 
 .game-info {
     font-family: 'Architects Daughter', sans-serif;
-    color: #0000ae;
+    color: #57026f;
     font-size: 4em;
 }
 
@@ -37,11 +37,11 @@ body {
     grid-gap: 10px;
     margin: 50px;
     justify-content: center;
+    perspective: 500px;
 }
 
 .card {
     position: relative;
-    background-color: white;
     height: 175px;
     width: 125px;
     border-radius: 12px;
@@ -58,6 +58,7 @@ body {
     border-radius: 12px;
     border-width: 3px;
     border-style: solid;
+    transition: transform 500ms ease-in-out;
 }
 
 .card.visible .card-back {
@@ -69,12 +70,12 @@ body {
 }
 
 .card-back {
-    background-color: #CBC3E3;
-    border-color: #00008B;
+    background-color: #79029b;
+    border-color: #340143;
 }
 
 .card-front {
-    background-color: #E6D1F2;
+    background-color: #CBC3E3;
     transform: rotateY(180deg);
 }
 
@@ -82,14 +83,14 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
-    transition: width 10ms ease-in-out, height 10ms ease-in-out;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
 .accordion {
     position: absolute;
     width: 120px;
     height: 120px;
-    transition: width 10ms ease-in-out, height 10ms ease-in-out;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
 .card-back:hover .treble-clef {
