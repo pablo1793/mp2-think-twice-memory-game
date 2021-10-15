@@ -86,7 +86,7 @@ body {
     transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
-.accordion {
+.instrument {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -98,7 +98,7 @@ body {
     height: 135px;
 }
 
-.card-front:hover .accordion {
+.card-front:hover .instrument {
     width: 100px;
     height: 100px;
 }
