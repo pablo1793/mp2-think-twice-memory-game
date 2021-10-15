@@ -60,13 +60,22 @@ body {
     border-style: solid;
 }
 
+.card.visible .card-back {
+    transform: rotateY(-180);
+}
+
+.card.visible .card-front {
+    transform: rotateY(0);
+}
+
 .card-back {
     background-color: #CBC3E3;
     border-color: #00008B;
 }
 
 .card-front {
-    transform: translateX(180deg);
+    background-color: #E6D1F2;
+    transform: rotateY(180deg);
 }
 
 .treble-clef {
@@ -74,10 +83,21 @@ body {
     width: 150px;
     height: 150px;
     transition: width 10ms ease-in-out, height 10ms ease-in-out;
-    z-index: 0;
+}
+
+.accordion {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    transition: width 10ms ease-in-out, height 10ms ease-in-out;
 }
 
 .card-back:hover .treble-clef {
-    width: 175px;
-    height: 175px;
+    width: 135px;
+    height: 135px;
+}
+
+.card-front:hover .accordion {
+    width: 100px;
+    height: 100px;
 }
