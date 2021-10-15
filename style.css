@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(#ADD8E6, #301934);
+}
+
+.page-title {
+    color: #00008B;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+}
+
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-info {
+    font-family: 'Architects Daughter', sans-serif;
+    color: #0000ae;
+    font-size: 4em;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    height: 175px;
+    width: 125px;
+    border-radius: 12px;
+}
+
+.card-face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.card-back {
+    background-color: #CBC3E3;
+    border-color: #00008B;
+}
+
+.card-front {
+    transform: translateX(180deg);
+}
+
+.treble-clef {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transition: width 10ms ease-in-out, height 10ms ease-in-out;
+    z-index: 0;
+}
+
+.card-back:hover .treble-clef {
+    width: 175px;
+    height: 175px;
+}
