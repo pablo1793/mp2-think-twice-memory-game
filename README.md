@@ -2,7 +2,7 @@
 
 ## Card Pairing Memory Game
 
-[View dployed site here](https://pablo1793.github.io/mp2-think-twice-memory-game/)
+[View deployed site here](https://pablo1793.github.io/mp2-think-twice-memory-game/)
 
 ## UX
 
