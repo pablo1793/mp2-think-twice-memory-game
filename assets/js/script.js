@@ -120,6 +120,7 @@ class ThinkTwice {
         clearInterval(this.countDown);
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
+        this.hideCards();
     }
 
     shuffleCards() {
