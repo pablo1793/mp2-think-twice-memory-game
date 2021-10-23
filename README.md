@@ -56,8 +56,6 @@
 
 * The fonts used to style the header and subheader texts are [ZCOOL Kwaile](https://fonts.google.com/specimen/ZCOOL+KuaiLe) and [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter?preview.text=Time%20Flips&preview.text_type=custom#standard-styles) respectively. The latter was designed by [Kimberley Geswein](https://fonts.google.com/?preview.text=Time%20Flips&preview.text_type=custom&query=Kimberly+Geswein), and the former by [ZCOOL](https://fonts.google.com/?query=ZCOOL), [Liu Bingke](https://fonts.google.com/?query=Liu+Bingke), [Yang Kang](https://fonts.google.com/?query=Yang+Kang), and [Wu Shaojie](https://fonts.google.com/?query=Wu+Shaojie).
 
-### Media
-
 #### Images
 
 * The **treble-clef** image used for the design on the back of the cards was downloaded from icon-library.com. Although I wasn't able to find the content contributor, here is a [link](https://icon-library.com/icon/musical-notes-icon-5.html) to the page from where it was sourced.
@@ -74,8 +72,8 @@
 
 #### Audio
 
-* The background guitar loop was sourced from looperman.com. This is the [page](https://www.looperman.com/loops/detail/79689/acoustic-guitar-in-d-minor-by-jensmuse-free-120bpm-classical-acoustic-guitar-loop) where I downloaded it, and [jensmuse](https://www.looperman.com/loops?mid=jensmuse) is the artist that originally uploaded it.
-* The flip, match, victory, and game-over sounds were sourced from [Zack Wilson/PortEXE's](https://github.com/portexe) gitHub page. Specifically from this [repository](https://github.com/portexe/Mix-Or-Match/tree/tutorial-code).
+* The **background drum loop** was sourced from looperman.com. This is the [page](https://www.looperman.com/loops/detail/123116/classical-drum-by-krolbeats-free-120bpm-classical-drum-loop) where I downloaded it, and [jensmuse](https://www.looperman.com/loops?mid=Krolbeats) is the artist that originally uploaded it.
+* The **flip**, **match**, **victory**, and **game-over** sounds were sourced from [Zack Wilson/PortEXE's](https://github.com/portexe) gitHub page. Specifically from this [repository](https://github.com/portexe/Mix-Or-Match/tree/tutorial-code).
 
 ### Acknowledgements
 
