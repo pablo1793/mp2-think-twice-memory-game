@@ -49,16 +49,17 @@ body {
 
 .card-face {
     position: absolute;
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
     border-radius: 12px;
     border-width: 3px;
     border-style: solid;
+    overflow: hidden;
     transition: transform 500ms ease-in-out;
+    backface-visibility: hidden;
 }
 
 .card.visible .card-back {
@@ -71,6 +72,7 @@ body {
 
 .card.matched .instrument {
     animation: dance 1s linear infinite 500ms;
+    animation-iteration-count: 5;
 }
 
 .overlay-text {
