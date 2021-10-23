@@ -4,7 +4,7 @@
 
 html {
     min-height: 100vh;
-    cursor: url(assets/cursors/wholenote.cur), auto;
+    cursor: url(assets/cursors/hand-cursor.cur), auto;
 }
 
 body {
