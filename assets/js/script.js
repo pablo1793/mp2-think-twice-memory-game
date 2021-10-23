@@ -85,6 +85,11 @@ class ThinkTwice {
         this.audioController.gameOver();
         document.getElementById('game-over-text').classList.add('visible');
     }
+    victory() {
+        clearInterval(this.countDown);
+        this.audioController.victory();
+        document.getElementById('victory-text').classList.add('visible');
+    }
 
     shuffleCards() {
         for (let i = this.cardsArray.length - 1; i > 0; i--) {
@@ -109,8 +114,6 @@ function ready() {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             game.startGame();
-            let audioController = new AudioController();
-            audioController.startMusic();
         });
     });
     cards.forEach(card => {
