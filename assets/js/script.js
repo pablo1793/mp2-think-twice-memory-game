@@ -46,8 +46,21 @@ class ThinkTwice {
         this.timeRemaining = this.totalTime;
         this.matchedCards = [];
         this.busy = true;
-
-        this.shuffleCards();
+        setTimeout(() => {
+            this.audioController.startMusic();
+            this.shuffleCards();
+            this.countdown = this.startCountdown();
+            this.busy = false;
+        }, 500);
+        this.hideCards();
+        this.timer.innerText = this.timeRemaining;
+        this.ticker.innerText = this.totalClicks;
+    }
+    hideCards() {
+        this.cardsArray.forEach(card => {
+            card.classList.remove('visible');
+            card.classList.remove('watched');
+        });
     }
     flipCard(card) {
         if (this.canFlipCard(card)) {
