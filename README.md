@@ -72,6 +72,11 @@
 * The **harp** image was downloaded from pngwing.com. Contributor not found. Here is a [link](https://www.pngwing.com/en/free-png-byhey) to the page where it was sourced.
 * The **xylophone** image ws downloaded from vexels.com. I couldn't find its contributor, but here is a [link](https://www.vexels.com/png-svg/preview/223515/xylophone-instrument-black-design) to the page the file was sourced from.
 
+#### Audio
+
+* The background guitar loop was sourced from looperman.com. This is the [page](https://www.looperman.com/loops/detail/79689/acoustic-guitar-in-d-minor-by-jensmuse-free-120bpm-classical-acoustic-guitar-loop) where I downloaded it, and [jensmuse](https://www.looperman.com/loops?mid=jensmuse) is the artist that originally uploaded it.
+* The flip, match, victory, and game-over sounds were sourced from [Zack Wilson/PortEXE's](https://github.com/portexe) gitHub page. Specifically from this [repository](https://github.com/portexe/Mix-Or-Match/tree/tutorial-code).
+
 ### Acknowledgements
 
 #### Disclaimer
