@@ -1,6 +1,15 @@
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('')
+        this.bgMusic = new Audio('assets/audio/background-guitar.wav');
+        this.flipSound = new Audio('assets/audio/flip.wav');
+        this.matchSound = new Audio('assets/audio/match.wav');
+        this.victorySound = new Audio('assets/audio/victory.wav');
+        this.gameOverSound = new Audio('assets/audio/gameover.wav');
+        this.bgMusic.volume = 0.5;
+        this.bgMusic.loop = true;
+    }
+    startMusic() {
+        this.bgMusic.play();
     }
 }
 
@@ -12,6 +21,8 @@ function ready() {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             // game.startGame();
+            let audioController = new AudioController();
+            audioController.startMusic();
         });
     });
     cards.forEach(card => {
