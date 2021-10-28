@@ -44,6 +44,8 @@
     - imageresizer.online was used to resize all images to match the sizes of the actual images and their rendered counterparts. This was done in order to save data a load time.
 9. Gimp 2.10:
     - I used Gimp to crop screen captures, removing irrelevant image content.
+10. TinyPNG:
+    - TinyPNG.com was used to minify all images to reduce the game's loading time and minimise the user's data usage if not relying on a wifi connection.
 
 ## Functionality
 
@@ -78,6 +80,10 @@ Using the W3C CSS Validator:
 
 
 ### web.dev Testing
+
+#### Audit results screencap:
+
+<img src="assets/images/web-dev-audit1.min.webp" alt="Lighthouse audit results screencapture">
 
 ### Manual testing of all elements and functionality
 
