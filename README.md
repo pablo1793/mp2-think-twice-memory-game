@@ -38,6 +38,8 @@
     - Gitpod served as the online IDE in which the project was coded.
 6. Balsamiq:
     - Balsamiq was used before beginning to code to create wireframes which served as reference for the design of the website. Although these wireframes do not reflect the final site design, they served as a useful foundation to build on.
+7. CloudConvert:
+    - cloudconvert.com was used to convert all png image files to the webp format, reducing their size and ameliorating page load time.
 
 ## Functionality
 
