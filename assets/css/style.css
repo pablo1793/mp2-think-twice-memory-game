@@ -63,7 +63,7 @@ body {
 }
 
 .card.visible .card-back {
-    transform: rotateY(-180);
+    transform: rotateY(-180deg);
 }
 
 .card.visible .card-front {
