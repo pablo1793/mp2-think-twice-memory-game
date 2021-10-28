@@ -20,7 +20,24 @@
 
 ### Languages Used
 
+* HTML5
+* CSS3
+* JavaScript
+
 ### Libraries & Programs Used
+
+1. Hover.css:
+    - Hover was used on the treble-clef and instrument images that appear on the front and back of the cards respectively. Hovering over the images with the cursor reduce their size somewhat.
+2. Google Fonts:
+    - Google Fonts were used to import the "ZCOOL Kuaile" and "Architects Daughter" fonts. Which are used on the game title and timer/flip counter text respectively.
+3. Git:
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to Github.
+4. GitHub:
+    - GitHub is used to store the project's code after being pushed from Git. It also serves as a platform to deploy, clone, and share the project.
+5. Gitpod:
+    - Gitpod served as the online IDE in which the project was coded.
+6. Balsamiq:
+    - Balsamiq was used before beginning to code to create wireframes which served as reference for the design of the website. Although these wireframes do not reflect the final site design, they served as a useful foundation to build on.
 
 ## Functionality
 
