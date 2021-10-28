@@ -85,6 +85,10 @@ Using the W3C CSS Validator:
 
 <img src="assets/images/web-dev-audit1.min.webp" alt="Lighthouse audit results screencapture">
 
+#### Audit conclusions:
+
+1. 
+
 ### Manual testing of all elements and functionality
 
 ## Screenshots
