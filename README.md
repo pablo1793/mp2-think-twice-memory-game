@@ -42,6 +42,8 @@
     - cloudconvert.com was used to convert all png image files to the webp format, reducing their size and ameliorating page load time.
 8. Image Resizer Online:
     - imageresizer.online was used to resize all images to match the sizes of the actual images and their rendered counterparts. This was done in order to save data a load time.
+9. Gimp 2.10:
+    - I used Gimp to crop screen captures, removing irrelevant image content.
 
 ## Functionality
 
