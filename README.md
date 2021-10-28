@@ -38,6 +38,11 @@
 
 ### HTML Testing
 
+Using the W3C Markup Validator:
+
+* First test indicates I did not add alt attributes to the images used and that I duplicated an ID used for the media query hiding a number of card pairs on smaller screen sizes.
+* 
+
 ### CSS Testing
 
 ### JavaScript Testing
