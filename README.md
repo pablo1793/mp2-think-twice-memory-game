@@ -48,9 +48,11 @@ Using the W3C Markup Validator:
 Using the W3C CSS Validator:
 
 * First test indicates I forgot to add the unit to the transform property on line 66.
-* 
+* After correcting the error by adding the correct unit (degrees), I run the test again. The result returns *Congratulations! No Error Found*.
 
 ### JavaScript Testing
+
+
 
 ### web.dev Testing
 
