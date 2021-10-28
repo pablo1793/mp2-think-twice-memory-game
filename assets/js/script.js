@@ -139,6 +139,10 @@ class ThinkTwice {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
+    const mediaQuery = window.matchMedia('(max-width: 600px)');
+    if (mediaQuery.matches) {
+        cards = Array.from(document.querySelectorAll(".card:not(.sml-scr-hide)"));
+    }
     let game = new ThinkTwice(100, cards);
 
     overlays.forEach(overlay => {
