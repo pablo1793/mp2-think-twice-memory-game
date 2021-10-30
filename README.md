@@ -234,6 +234,40 @@ Using jshint.com validator:
 
 ## Screenshots
 
+### Wireframes
+
+The following are images of the wireframes I made before beginning to code the game. Although the final desgin is significantly different from the initial design that these wireframes show, they reflect what my initial idea was.
+
+<img src="assets/images/desktop-wireframe.min.webp" alt="Wireframe of game design for desktop screen sizes">
+<img src="assets/images/tablet-wireframe.min.webp" alt="Wireframe of game design for tablet screen sizes">
+<img src="assets/images/mobile-wireframe.min.webp" alt="Wireframe of game design for mobile screen sizes">
+
+### Final Game Design
+
+The following image shows the starting screen before the game has commenced:
+
+<img src="assets/images/scr-cap-start.min.webp" alt="Start screen capture">
+
+The following image shows the game being played:
+
+<img src="assets/images/scr-cap-midgame.min.webp" alt="Mid-game screen capture">
+
+The following image shows how the game looks after an unsuccesful attempt:
+
+<img src="assets/images/scr-cap-gameover.min.webp" alt="Game Over screen capture">
+
+The following image shows how the game looks after a succesful completion:
+
+<img src="assets/images/scr-cap-victory.min.webp" alt="Victory screen capture">
+
+The following image shows what the game looks like when played on a tablet:
+
+<img src="assets/images/scr-cap-midgame-tablet.min.webp" alt="Mid-game tablet screen capture">
+
+The following image shows what the game looks like when played on a mobile phone:
+
+<img src="assets/images/scr-cap-midgame-mobile.min.webp" alt="Mid-game mobile phone screen capture">
+
 ## Credits
 
 ### Content
