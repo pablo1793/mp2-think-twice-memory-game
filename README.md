@@ -218,7 +218,7 @@ Using jshint.com validator:
         * Check that timer remains at zero and flip-counter maintains the number of flips made during the game.
         * Repeat for tablet and mobile screen sizes.
     2. After clicking:
-        * Check that timer and flip counter reset. And the game restarts.
+        * Check that timer and flip counter reset, and that all cards return to their upside down state. And the game restarts.
         * Check same on tablet and mobile screen sizes.
 
 6. Victory overlay:
@@ -231,6 +231,11 @@ Using jshint.com validator:
     2. After clicking:
         * Check that timer and flip counter reset. And the game restarts.
         * Check same on tablet and mobile screen sizes.
+
+7. Shuffle:
+    * Check that cards are shuffled upon starting a new game.
+    * Check that cards shuffle after clicking the game-over overlay and restart the game.
+    * Check that cards shuffle after clicking the victory overlay and restart the game.
 
 ## Screenshots
 
@@ -276,6 +281,8 @@ The following image shows what the game looks like when played on a mobile phone
 To give a few examples: the theme, colour scheme, card design, and background music for my game are all completely different. Furthermore, my game gives more consideration to responsiveness. Reducing the size of the cards on smaller screens, and hiding half of the cards in order to minimize scrolling.
 
 * The fonts used to style the header and subheader texts are [ZCOOL Kwaile](https://fonts.google.com/specimen/ZCOOL+KuaiLe) and [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter?preview.text=Time%20Flips&preview.text_type=custom#standard-styles) respectively. The latter was designed by [Kimberley Geswein](https://fonts.google.com/?preview.text=Time%20Flips&preview.text_type=custom&query=Kimberly+Geswein), and the former by [ZCOOL](https://fonts.google.com/?query=ZCOOL), [Liu Bingke](https://fonts.google.com/?query=Liu+Bingke), [Yang Kang](https://fonts.google.com/?query=Yang+Kang), and [Wu Shaojie](https://fonts.google.com/?query=Wu+Shaojie).
+
+* The code to shuffle the cards is based on an [algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) first described by Ronald Fisher and Frank Yates. It is known as the Fisher-Yates shuffle.
 
 #### Images
 
