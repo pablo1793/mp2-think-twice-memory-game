@@ -43,7 +43,7 @@
 8. Image Resizer Online:
     - imageresizer.online was used to resize all images to match the sizes of the actual images and their rendered counterparts. This was done in order to save data a load time.
 9. Gimp 2.10:
-    - I used Gimp to crop screen captures, removing irrelevant image content.
+    - I used Gimp to crop any screen captures in which I needed to remove irrelevant image content.
 10. TinyPNG:
     - TinyPNG.com was used to minify all images to reduce the game's loading time and minimise the user's data usage if not relying on a wifi connection.
 
