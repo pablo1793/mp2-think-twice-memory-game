@@ -19,11 +19,29 @@ From a user perspective, the goals vary between casual and more competitive play
 
 ##### The ideal user for this game is:
 
+* English speaking. Although it's not fundamental to play the game.
+* Technologically literate at a beginner level.
+* Someone who enjoys memory games.
+
 ##### Visitors to this website are searching for:
+
+* A card-matching memory browser game of medium to low difficulty.
+* A game that contains the option to improve on previous scores.
 
 ##### This project is the best way to help them achieve these things because:
 
+* It can be played casually, but only grants the player 100 seconds to match all 10 pairs of cards. So it necessitates basic strategy and quick-thinking to beat.
+* It can be played at a higher level of competitiveness. Since it has a limited timeframe and a counter that keeps a tab of how many times the player has flipped a card, the user can restart the game after each attempt with the aim of completing the game faster and with fewer flips than they scored previously.
+
 ##### Client stories:
+
+1. As a new player, I want to be able to play the game without having to read an extensive list of instructions.
+2. As a new player, I want to play a simple memory game to distract me during my 15-minute break.
+3. As a new player, I want the game to look appealing and function intuitively.
+4. As a new player, I want the game to be interactive and engaging.
+5. As a returning player, I want to play the game with my child and have her understand the game in a short period of time.
+6. As a returning player, I want to play for an extended period and achieve my best possible score.
+7. As a returning player, I want to see some changes made to the game.
 
 ## Technologies Used
 
