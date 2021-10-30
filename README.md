@@ -331,6 +331,10 @@ To give a few examples: the theme, colour scheme, card design, and background mu
 
 ### Acknowledgements
 
+* The excellent video lessons by Web Dev Simplified and PortEXE were instrumental in making this game. Not only did the videos help me code the HTML, CSS, and Javascript. But I also learned a great deal thanks to their clear explanations and knowledgeable expertise. I will continue to watch and learn from their content in the hopes of becoming a better developer.
+* I also need to thank Mariana for inspiring the name of the game. Credit where its due.
+* Finally, I want to thank my mentor Victor. As always he's been very helpful and supportive during the process of putting this project together. So thanks!
+
 #### Disclaimer
 
 The content of this Website is for educational and entertainment purposes only.
