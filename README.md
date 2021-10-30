@@ -156,6 +156,24 @@ Using jshint.com validator:
 3. After reviewing my style.css file, I concluded none of the code to be superfluous.
 4. I added the meta description tag to the head in my index.html file.
 
+
+### Testing client stories from UX section of README.md
+
+1. As a new player, I want to be able to play the game without having to read an extensive list of instructions.
+    * This player will find minimal instructions in the form of prompts in the screen overlays. These are limited to indicating they should click to either start or restart the game.
+2. As a new player, I want to play a simple memory game to distract me during my 15-minute break.
+    * The game will fit into this user's 15 minute timeframe nicely. Whether they choose to play once or a number of times. As it requires no preparation, and each attempt will last at most 100 seconds.
+3. As a new player, I want the game to look appealing and function intuitively.
+    * The game is designed with a pleasant colour scheme and simple required actions; mainly limited to clicking to start the game, restart the game, and choosing which card to flip.
+4. As a new player, I want the game to be interactive and engaging.
+    * The sounds employed in the game are used to indicate responses to the users actions. The theme and background music appeal to the general interest people have in music.
+5. As a returning player, I want to play the game with my child and have her understand the game in a short period of time.
+    * The game is simple and is designed to be played for players of any age. As such, this player's child should find the gameplay easy and intuitive in its simplicity.
+6. As a returning player, I want to play for an extended period and achieve my best possible score.
+    * The game can be played for as long as the player desires. The timer and flip-counter allow for competitive gameplay with oneself or others. Since beating the game can be improved upon by completing it with less flips and more remaining time.
+7. As a returning player, I want to see some changes made to the game.
+    * The game is still in the same form as its original deployment. But in future a navbar will be added, giving the option to swich to another set of cards with a different theme, soundtrack, and colour scheme.
+
 ### Manual testing of all elements and functionality
 
 
