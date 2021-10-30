@@ -78,6 +78,14 @@ From a user perspective, the goals vary between casual and more competitive play
 
 ### Non-technical
 
+Upon loading the page, you will see a starting screen indicating how to intialise the game. Once you click anywhere on the screen, the game will begin and the timer will start. You have one hundred seconds to complete the game.
+
+Under the title and timer and flip-counter subtitles you will find twenty cards upside down. To play the game all you need to do is find the ten pairs of cards. You can flip each card simply by clicking it. A flipped card will remain flipped until you click another card. If the second card is identical to the first, both cards will remain face-up. If not, both cards will return to their previous upside-down state.
+
+If you are unable to find all ten pairs within the allotted timeframe, the game will stop and the game-over screen will appear. This screen will give you the option to restart the game.
+
+If you manage to find all 10 pairs before the time runs out, the victory screen will activate and all cards will flip back upside down; ready for you to restart the game once more if you wish to improve on your previous score.
+
 ### Technical
 
 ### Existing Features
@@ -124,7 +132,8 @@ Using the W3C CSS Validator:
 
 ### Content
 
-* The inspiration for the design of the game was taken from a two-part video lesson created by YouTube content creators [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) and [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg). The [first video](https://www.youtube.com/watch?v=28VfzEiJgy4) focuses on the HTML and CSS needed to create the game, and the [second](https://www.youtube.com/watch?v=3uuQ3g92oPQ) is centered of the JavaScript functionality.
+* The inspiration for the technical composition of the game was taken from a two-part video lesson created by YouTube content creators [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) and [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg). The [first video](https://www.youtube.com/watch?v=28VfzEiJgy4) focuses on the HTML and CSS needed to create the game, and the [second](https://www.youtube.com/watch?v=3uuQ3g92oPQ) is centered of the JavaScript functionality. Most of the HTML, CSS, and JavaScript code is taken from these videos, although none of it was copied and pasted from the GitHub repository. I watched the videos multiple times and coded along with both content creators. Moreover, the code is not identical. Since I made changes during the process of coding in order to achieve the look and functionality I was aiming for with my own finished game, which differs in a few key aspects from their Halloween-themed game. 
+To give a few examples: the theme, colour scheme, card design, and background music for my game are all completely different. Furthermore, my game gives more consideration to responsiveness. Reducing the size of the cards on smaller screens, and hiding half of the cards in order to minimize scrolling.
 
 * The fonts used to style the header and subheader texts are [ZCOOL Kwaile](https://fonts.google.com/specimen/ZCOOL+KuaiLe) and [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter?preview.text=Time%20Flips&preview.text_type=custom#standard-styles) respectively. The latter was designed by [Kimberley Geswein](https://fonts.google.com/?preview.text=Time%20Flips&preview.text_type=custom&query=Kimberly+Geswein), and the former by [ZCOOL](https://fonts.google.com/?query=ZCOOL), [Liu Bingke](https://fonts.google.com/?query=Liu+Bingke), [Yang Kang](https://fonts.google.com/?query=Yang+Kang), and [Wu Shaojie](https://fonts.google.com/?query=Wu+Shaojie).
 
