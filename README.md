@@ -182,7 +182,7 @@ I fixed this bug by researching the pertinent CSS documentation on keyframes ani
 
 Finally, I fixed the problem by simply changing the font-size unit from pixels to viewport width within the overlay keyframes animation on line 110 in the style.css file.
 
-3. 
+3. Upon realising that I needed to reduce the number of cards on mobile devices I added the sml-scr-hide class to the corresponding card pairs and display: none in the media query on line 190 on the style.css file. However, when testing whether this would cause any problems I discovered that the victory function wouldn't execute on mobile screen sizes because I hadn't indicated the change in the script.js file. After some time researching both the CSS and JavaScript documentation, I added the code on lines 145, 146, and 147 in the script.js file. This fixed the issue and ensured the victory overlay would appear correctly on mobile devices.
 
 ### Testing client stories from UX section of README.md
 
