@@ -175,11 +175,9 @@ Using jshint.com validator:
 ### Noteworthy Bugfixes
 
 1. Soonafter finishing the bulk of the coding process, I began testing the functionality of the game and found a major bug. After a victory, and clicking to restart the game, the instruments continued their side-to-side animations and remained visible even though the game had restarted and all cards were once more face down.
-
 I fixed this bug by researching the pertinent CSS documentation on keyframes animations. The fix was simple: I added an iteration-count to line 75 in style.css file. Limiting the amount of times the animation repeats.
 
 2. Around the same time, I noticed that the animation that enables the overlay text to grow was not responsive on smaller screen sizes. At first I tried to change the font-size through the use of a media query, which didn't work.
-
 Finally, I fixed the problem by simply changing the font-size unit from pixels to viewport width within the overlay keyframes animation on line 110 in the style.css file.
 
 3. Upon realising that I needed to reduce the number of cards on mobile devices I added the sml-scr-hide class to the corresponding card pairs and display: none in the media query on line 190 on the style.css file. However, when testing whether this would cause any problems I discovered that the victory function wouldn't execute on mobile screen sizes because I hadn't indicated the change in the script.js file. After some time researching both the CSS and JavaScript documentation, I added the code on lines 145, 146, and 147 in the script.js file. This fixed the issue and ensured the victory overlay would appear correctly on mobile devices.
