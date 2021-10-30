@@ -4,6 +4,15 @@
 
 [View deployed site here](https://pablo1793.github.io/mp2-think-twice-memory-game/)
 
+A simple but detailed browser game in which players must find pairs of cards with identical images by flipping them over. The games features include background music and sounds indicating card flips and matches, as well as victory and game over themes reminiscent of old-school video games. There are also a timer and flip counter, to enhance the competitive nature of the game. As the goal is to match all twenty cards with the fewest possible flips and with as much time remaining as the player can manage. The images on the front and back of the cards also execute animations when hovered over or matched.
+
+The primary goal of Think-Twice is to provide the user with an entertaining passtime. Which can be played once or many times; depending on how much the player wishes to improve on their priors efforts.
+
+<img src="assets/images/scr-cap-midgame.min.webp" alt="Mid-game screen capture.">
+
+The business goal of Think-Twice is to provide a non-profit game which users can play briefly or for an extended period of time, depending on their level of interest and competitivity. Its design and implementation does not have any financial incentives.
+
+From a user perspective, the goals vary between casual and more competitive players. As such the aim is to pass a little bit of time playing a fun, musical-themed memory game for the former. And - as mentioned earlier - the objective is to beat the game with the lowest number of flips and highest possible time remaining for the latter.
 ## UX
 
 #### Ideal user
