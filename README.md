@@ -160,7 +160,7 @@ Using jshint.com validator:
 ### Testing client stories from UX section of README.md
 
 1. As a new player, I want to be able to play the game without having to read an extensive list of instructions.
-    * This player will find minimal instructions in the form of prompts in the screen overlays. These are limited to indicating they should click to either start or restart the game.
+    * This player will find minimal instructions in the form of prompts in the screen overlays. These are limited to indicating they should click to either start or restart the game. Meanwhile, the gameplay itself is basic enought to not require instructions.
 2. As a new player, I want to play a simple memory game to distract me during my 15-minute break.
     * The game will fit into this user's 15 minute timeframe nicely. Whether they choose to play once or a number of times. As it requires no preparation, and each attempt will last at most 100 seconds.
 3. As a new player, I want the game to look appealing and function intuitively.
@@ -176,7 +176,61 @@ Using jshint.com validator:
 
 ### Manual testing of all elements and functionality
 
+1. Start overlay:
+    * Upon loading the page, the 'Click to Start' overlay is present.
+    * Change screen size from desktop to tablet to make sure the overlay is responsive.
+    * Change screen size from tablet to mobile to ensure responsiveness.
+    * Once screen is clicked, overlay disappears on all screen sizes, background music starts playing, and game begins.
 
+2. Timer:
+    * Once start overlay disappears on desktop screen size check timer starts counting down second by second from 100 to 0.
+    * Check the timer functionality on tablet and mobile screen sizes to ensure responsiveness.
+    * After game-over and victory overlays are clicked, check that timer resets to 100 as the game restarts and begins the countdown once more.
+    * Check this same functionality on tablet and mobile screen sizes.
+
+3. Flips counter:
+    * Check that the counter adds 1 every time a card is clicked.
+    * Make sure this functionality is maintained on tablet and mobile screen sizes.
+
+4. Cards:
+    1. Card back:
+        * Check that treble-clef size is reduced when hovered over with cursor on desktop.
+        * On tablet and mobile screens, check that treble-clef image starts at reduced size and increases to full size once clicked.
+    2. Card front:
+        * Repeat same test done with treble-clef image for all instrument images on front of cards. At desktop screen size the instruments reduce in size somewhat when hovered over.
+        * At tablet and mobile screen sizes check that this animation does not occur since flipped cards cannot be clicked. 
+    3. Card flip: 
+        * Make sure that the flip sound executes every time any of the cards are clicked.
+        * Test the delay between clicks. Cards cannnot be repeatedly clicked one after the other.
+        * Check the flip itself is fluid and looks realistic.
+        * Repeat these tests for tablet and mobile screen sizes.
+    4. Card match:
+        * Make sure the card match sound executes whenever two identical cards are flipped.
+        * Check that the instrument image animation executes upon match.
+        * Check that cards remain face-up after being matched.
+        * Repeat test on tablet and mobile screen sizes.
+    5. On mobile screens specifically:
+        * Check that just 10 cards appear, providing only 5 pairs of cards. The remaining cards are properly hidden.
+
+5. Game Over overlay:
+    1. Before clicking:
+        * Check that game-over sound plays and overlay appears when timer runs out.
+        * Check that timer remains at zero and flip-counter maintains the number of flips made during the game.
+        * Repeat for tablet and mobile screen sizes.
+    2. After clicking:
+        * Check that timer and flip counter reset. And the game restarts.
+        * Check same on tablet and mobile screen sizes.
+
+6. Victory overlay:
+    1. Before clicking:
+        * Check that victory sound plays and overlay appears once all pairs of cards are matched.
+        * Make sure timer and flip-counter remain with the values they had at the moment of completing the last match.
+        * Check that all cards flip back to their upside-down state once victory overlay appears.
+        * Repeat tests for tablet screen size.
+        * On mobile screen size, make sure the victory sound plays and overlay appears despite half of the cards being hidden.
+    2. After clicking:
+        * Check that timer and flip counter reset. And the game restarts.
+        * Check same on tablet and mobile screen sizes.
 
 ## Screenshots
 
