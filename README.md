@@ -88,11 +88,37 @@ If you manage to find all 10 pairs before the time runs out, the victory screen 
 
 ### Technical
 
+The game consists of a single page containing all of the game content. Screen overlays are used for three separate purposes: to provide a starting screen, and to indicate both victory and game-over. All overlays reset the timer to 100 and the flip-counter to zero. They also each disappear once they are clicked.
+
+Once the player clicks the starting overlay, the timer will begin to count down, and the background music will start; giving both visual and auditory indication of the start of the game. The backs of all the cards are styled identically, while their fronts represent 10 different instruments which the player must match in order to progress through the game.
+
+When the player hovers over the images contained in the cards with the cursor, an animation will occur; reducing the size of the image somewhat. When the player clicks an upside-down card, a flip sound can be heard. And once a match is achieved, the match sound will activate and a short animation will occur. Making the identical instruments on both cards dance for a short span of time.
+
+The player cannot cause any action on a card in three separate circumstances. First of all, if a card is clicked and is facing up, it cannot be clicked again to cause another flip. In order to progress, the player must click a different card in the effort to find the first card's pair. Second, if a pair of cards have been matched, neither can be clicked again to cause any change. And they will remain flipped until the end of the game. Finally, if an animation is happening, the card cannot be clicked. However, since the animations in question last milliseconds, the inability to click the card is barely noticeable. This last circumstance is in place mostly to avoid the player rapidly clicking multiple cards and possibly causing an error or attempting to cheat.
+
+If the player fails to find all card pairs within the timeframe, the game-over sound and overlay will activate, giving the player the option to click to restart. If they choose to try again, the timer and flip-counter will reset and the cards will be shuffled.
+
+If the player manages to match all ten pairs, the timer will stop and the victory overlay and sound will execute. This will cause all cards to flip back upside down, but the timer and flip-counter will not reset until the game is restarted. This is so the player can take note of their score if they so wish. Once the player clicks to restart, the timer and flip-counter will reset, and the cards will shuffle; ready for a new game.
+
 ### Existing Features
 
 ### Features to implement in future
 
 ## Installation Instructions
+
+To clone this project into Gitpod you will need:
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser 
+
+Then follow these steps:
+1. Go to [my GitHub profile](https://github.com/pablo1793)
+2. Click "Repositories" and choose the repo named "<strong>mp1-author_website</strong>"
+3. Click the dropdown labelled "<strong>Code</strong>"
+4. To clone the repository using HTTPS, under "Clone with HTTPS", copy the URL link
+5. Open terminal
+6. Change the current working directory to the location where you want the cloned directory
+7. Type "<em>git clone</em>", and then paste the URL you copied earlier
+8. Press <strong>Enter</strong> to create your local clone
 
 ## Testing & Bugfixes
 
@@ -112,7 +138,10 @@ Using the W3C CSS Validator:
 
 ### JavaScript Testing
 
+Using jshint.com validator:
 
+* First test returned multiple warnings concerning 'esversion: 6'. Although the warning related to my use of classes, arrow function syntax, and declaring variables with const and let; they all appeared to circle back to the same issue.
+* After some research I found an answer in this [post](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) on StackOverflow. So I added this comment - /* jshint esversion: 6 */ - at the top of my script.js file and tested the code again. The second test returned *No warnings*.
 
 ### web.dev Testing
 
@@ -122,9 +151,14 @@ Using the W3C CSS Validator:
 
 #### Audit conclusions:
 
-1. 
+1. The render-blocking resources which the audit refers to are the fonts that I am using from Google Fonts. As I cannot eliminate them I consider this issue to be out of my scope of control.
+2. After seeing the results of the audit, I resized all of the images used in the game to be the same size as they are when they are rendered. And also changed their format from PNG to WEBP. As well as minified all images to reduce their data comsumption as much as possible.
+3. After reviewing my style.css file, I concluded none of the code to be superfluous.
+4. I added the meta description tag to the head in my index.html file.
 
 ### Manual testing of all elements and functionality
+
+
 
 ## Screenshots
 

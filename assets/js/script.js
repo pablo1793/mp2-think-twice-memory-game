@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/audio/bg-drum.wav');
