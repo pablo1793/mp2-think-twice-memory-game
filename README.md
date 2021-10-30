@@ -102,7 +102,23 @@ If the player manages to match all ten pairs, the timer will stop and the victor
 
 ### Existing Features
 
+* Game title header at the top of the page.
+* Interactive start, victory and game over overlays which appear at their corresponding times and disappear when clicked.
+* Timer which begins at 100 seconds and starts counting down second by second once the game is initialised.
+* Flips counter which keeps a tab of every time the player has clicked an upside down card.
+* Twenty fully interactive cards.
+    * Animations on both sides of the cards when hovered over with the cursor.
+    * Flip transition when card is clicked, transitioning from upside-down to face-up.
+    * Flip and match sounds for both of these actions.
+    * Additional animation when two cards with identical instruments images are matched.
+* Shuffle function that executes before the game starts or restarts.
+* Background music which plays in a loop while the game is being played. Also, victory and game over sounds which play when their corresponding overlays appear.
+
 ### Features to implement in future
+
+* More games with similar code but different themes, colour schemes, cards, and music.
+* A navbar to navigate between the games.
+* A custom themed cursor for each variant of the game.
 
 ## Installation Instructions
 
@@ -156,6 +172,17 @@ Using jshint.com validator:
 3. After reviewing my style.css file, I concluded none of the code to be superfluous.
 4. I added the meta description tag to the head in my index.html file.
 
+### Noteworthy Bugfixes
+
+1. Soonafter finishing the bulk of the coding process, I began testing the functionality of the game and found a major bug. After a victory, and clicking to restart the game, the instruments continued their side-to-side animations and remained visible even though the game had restarted and all cards were once more face down.
+
+I fixed this bug by researching the pertinent CSS documentation on keyframes animations. The fix was simple: I added an iteration-count to line 75 in style.css file. Limiting the amount of times the animation repeats.
+
+2. Around the same time, I noticed that the animation that enables the overlay text to grow was not responsive on smaller screen sizes. At first I tried to change the font-size through the use of a media query, which didn't work.
+
+Finally, I fixed the problem by simply changing the font-size unit from pixels to viewport width within the overlay keyframes animation on line 110 in the style.css file.
+
+3. 
 
 ### Testing client stories from UX section of README.md
 
@@ -236,6 +263,7 @@ Using jshint.com validator:
     * Check that cards are shuffled upon starting a new game.
     * Check that cards shuffle after clicking the game-over overlay and restart the game.
     * Check that cards shuffle after clicking the victory overlay and restart the game.
+    * Repeat tests on tablet and mobile screen sizes.
 
 ## Screenshots
 
